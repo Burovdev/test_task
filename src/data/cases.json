@@ -1,0 +1,66 @@
+[
+    {
+        "id": "apple",
+        "name": "Apple",
+        "close_date": "2025-07-10",
+        "proof_needed": true,
+        "cost": 420,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nulla et eros porta fermentum. Sed et erat sit amet tellus mattis faucibus. Nullam a dolor sit amet erat malesuada ultricies."
+    },
+    {
+        "id": "samsung",
+        "name": "Samsung",
+        "close_date": "2025-09-10",
+        "proof_needed": false,
+        "cost": 230,
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "google",
+        "name": "Google",
+        "close_date": "2025-11-10",
+        "proof_needed": false,
+        "cost": 190,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nulla et eros porta fermentum."
+    },
+    {
+        "id": "microsoft",
+        "name": "Microsoft",
+        "close_date": "2025-12-10",
+        "proof_needed": true,
+        "cost": 450,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nulla et eros porta."
+    },
+    {
+        "id": "facebook",
+        "name": "Facebook",
+        "close_date": "2026-01-10",
+        "proof_needed": false,
+        "cost": 120,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nulla et eros porta fermentum."
+    },
+    {
+        "id": "amazon",
+        "name": "Amazon",
+        "close_date": "2026-02-10",
+        "proof_needed": true,
+        "cost": 270,
+        "description": "Lorem ipsum."
+    },
+    {
+        "id": "netflix",
+        "name": "Netflix",
+        "close_date": "2026-03-10",
+        "proof_needed": false,
+        "cost": 350,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nulla et eros porta fermentum."
+    },
+    {
+        "id": "tesla",
+        "name": "Tesla",
+        "close_date": "2026-04-10",
+        "proof_needed": false,
+        "cost": 150,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nulla et eros porta fermentum."
+    }
+]
