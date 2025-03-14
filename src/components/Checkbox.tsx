@@ -9,12 +9,13 @@ interface CheckBoxProps {
 const Checkbox: React.FC<CheckBoxProps> = ({ checked }) => {
     return (
         <div
+            data-testid="checkbox-container"
             className={cn(
                 `size-6 aspect-square flex items-center justify-center`,
                 checked ? "bg-green-500" : "border border-green-500"
             )}
         >
-            {checked && <CheckMarkIcon className="text-white size-5" />}
+            {checked && <CheckMarkIcon data-testid="checkmark-icon" className="text-white size-5" />}
         </div>
     );
 };

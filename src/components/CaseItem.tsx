@@ -80,7 +80,11 @@ const CaseItem: FC<CaseItemType> = ({ id, name, close_date, description, proof_n
                         </div>
 
                         <div className="flex items-center gap-1 text-gray-700 text-sm mt-1">
-                            {proof_needed ? <ProofNeededIcon className="size-4" /> : <NoProofIcon className="size-4" />}
+                            {proof_needed ? (
+                                <ProofNeededIcon data-testid="proof-needed-icon" className="size-4" />
+                            ) : (
+                                <NoProofIcon data-testid="no-proof-icon" className="size-4" />
+                            )}
                             <span>{proof_needed ? "Proof needed" : "No proof needed"}</span>
                         </div>
                     </div>
